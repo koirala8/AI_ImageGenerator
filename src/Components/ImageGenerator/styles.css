@@ -1,0 +1,17 @@
+/* styles.css */
+
+.loading-bar {
+    width: 0;
+    height: 8px;
+    background-color: #DE1B89;
+  }
+  
+  @keyframes loading {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  
+  .animate-loading-bar {
+    animation: loading 2s linear infinite;
+  }
+  
